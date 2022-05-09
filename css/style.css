@@ -12,26 +12,39 @@ html{ box-sizing: border-box; }
 *, *::before, *::after{ box-sizing: inherit; }
 
 body{
-    display: grid;
-    justify-content: center;
+    
+    display: flex;
     align-items: center;
-    min-height: 100vh;
+    justify-content: space-around;
+    text-align: center;
     font-family: 'League Spartan', sans-serif;
 }
 
 h2{
     line-height: 2.5rem;
-    font-size: 3rem;
+    font-size: 2.5rem;
+    
     font-weight: 500;
     color: var(--Very-Dark-Magenta);
 }
 
-.width{
-    width: 80%;
-    padding: 2rem;
-    
+p{
+    font-size: 1.1rem;
 }
 
 .container{
+    margin: 2rem 0 2rem 0;
+    width: 85%;
+}
 
+.container-header{
+    margin-bottom: 2rem;
+}
+
+.container-header p{
+    color: var(---Dark-Grayish-Magenta);
+}
+
+.card-rated{
+    
 }
