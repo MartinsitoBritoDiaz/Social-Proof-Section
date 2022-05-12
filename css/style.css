@@ -19,6 +19,13 @@ body{
     justify-content: space-around;
     text-align: center;
     font-family: 'Spartan', sans-serif;
+    background-color: var(---Dark-Grayish-Magenta);
+    
+    background-image: url(/images/bg-pattern-top-mobile.svg), url(/images/bg-pattern-bottom-mobile.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top 0vh left 2vw, bottom -100vh right 2vw;
+    /* background-position: right 50vw bottom 50vh, left 50vw top 50vh; */
+    
 }
 
 h2{
