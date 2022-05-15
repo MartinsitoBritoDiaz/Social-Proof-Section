@@ -19,11 +19,10 @@ body{
     justify-content: space-around;
     text-align: center;
     font-family: 'Spartan', sans-serif;
-    background-color: var(--Light-Grayish-Magenta);
     
     background-image: url(/images/bg-pattern-top-mobile.svg), url(/images/bg-pattern-bottom-mobile.svg);
     background-repeat: no-repeat, no-repeat;
-    background-position: top 0vh left 2vw, bottom -100vh right 1vw;
+    background-position: top 0vh left 2vw, bottom -1vh right 3vw;
 }
 
 h2{
