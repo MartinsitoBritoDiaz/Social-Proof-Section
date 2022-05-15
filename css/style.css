@@ -124,3 +124,16 @@ img{
     font-size: .8rem;
     font-weight: 400;
 }
+
+/* Desktop */
+
+@media (min-width: 768px) {
+    .container-primary{
+        display: flex;
+        
+    }
+
+    .card-review-group{
+        flex-direction: row;
+    }
+}
