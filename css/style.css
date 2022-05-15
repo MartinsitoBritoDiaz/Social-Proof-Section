@@ -128,9 +128,31 @@ img{
 /* Desktop */
 
 @media (min-width: 768px) {
+    body{
+        background-image: url(/images/bg-pattern-top-desktop.svg), url(/images/bg-pattern-bottom-desktop.svg);
+        background-repeat: no-repeat, no-repeat;
+        background-position: top 0vh left 2vw, bottom -1vh right 3vw;
+
+        
+    }
+    .container{
+        padding: 10rem;
+    }
+
     .container-primary{
         display: flex;
-        
+        gap: 20%;
+
+    }
+
+    .container-header{
+        text-align: left;
+        flex-basis: 40%;
+    }
+
+    .card-rated-group{
+        flex-basis: 40%;
+
     }
 
     .card-review-group{
