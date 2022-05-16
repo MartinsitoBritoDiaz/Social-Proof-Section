@@ -94,6 +94,8 @@ This challenge is completely free. Please share it with anyone who will find it 
 
 ## Links
 
+Github Pages : https://martinsitobritodiaz.github.io/Social-Proof-Section/
+Netlify: https://cerulean-platypus-8fe953.netlify.app/ 
 
 ## Author
 
