@@ -135,19 +135,34 @@ img{
 
         
     }
-    .container{
-        padding: 5rem;
+
+    h2{
+        font-size: 3rem;
+        line-height: 3rem;
+        margin: 0;
     }
 
+
+    .container{
+        padding: 4rem;
+        padding-bottom: 2rem;
+    }
+
+    
     .container-primary{
         display: grid;
         grid-template-columns: 2fr 2fr;
-        column-gap: 8rem;
+        column-gap: 5rem;
         
     }
 
     .container-header{
         text-align: left;
+        padding-right: 4rem;
+    }
+
+    .container-header p{
+        font-size: 1rem;
     }
 
     .card-rated-group{
@@ -157,9 +172,9 @@ img{
     .card-rated{
         display: flex;
         justify-content: center;
-        column-gap: 2rem;
+        column-gap: 1rem;
         align-items: center;
-        padding-right: 2rem;
+        padding-right: 1rem;
     }
 
     .card-rated:nth-child(1){
@@ -180,6 +195,20 @@ img{
     }
 
     .card-review-group{
+        margin-top: 1rem;
         flex-direction: row;
+    }
+
+    .card-review:nth-child(1){
+        margin-bottom: 4rem;
+    }
+
+    .card-review:nth-child(2){
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .card-review:nth-child(3){
+        margin-top: 4rem;
     }
 }
