@@ -131,28 +131,52 @@ img{
     body{
         background-image: url(/images/bg-pattern-top-desktop.svg), url(/images/bg-pattern-bottom-desktop.svg);
         background-repeat: no-repeat, no-repeat;
-        background-position: top 0vh left 2vw, bottom -1vh right 3vw;
+        background-position: top 0vh left 2vw, bottom 0vh right 3vw;
 
         
     }
     .container{
-        padding: 10rem;
+        padding: 5rem;
     }
 
     .container-primary{
-        display: flex;
-        gap: 20%;
-
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        column-gap: 8rem;
+        
     }
 
     .container-header{
         text-align: left;
-        flex-basis: 40%;
     }
 
     .card-rated-group{
-        flex-basis: 40%;
+        gap: 0rem;
+    }
 
+    .card-rated{
+        display: flex;
+        justify-content: center;
+        column-gap: 2rem;
+        align-items: center;
+        padding-right: 2rem;
+    }
+
+    .card-rated:nth-child(1){
+        margin-right: 8rem;
+    }
+
+    .card-rated:nth-child(2){
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    .card-rated:nth-child(3){
+        margin-left: 8rem;
+    }
+
+    .card-rated p{
+        margin: 0;
     }
 
     .card-review-group{
